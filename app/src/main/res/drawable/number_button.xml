@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下後的狀態 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- 該按鈕按下後的顏色 -->
+            <solid android:color="#C5C5C5"/>
+            <!-- 圓角呈度 -->
+            <corners android:radius="5dp" />
+            <!-- 邊框寬度和顏色 -->
+
+        </shape>
+    </item>
+
+    <!-- 預設的狀態 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp" />
+            <solid android:color="#F0F0F0"/>
+
+       </shape>
+    </item>
+</selector>
